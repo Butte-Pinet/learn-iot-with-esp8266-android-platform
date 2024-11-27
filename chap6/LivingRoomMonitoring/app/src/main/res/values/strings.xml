@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Living Room Monitoring</string>
+    <string name="room">Living Room</string>
+    <string name="txt_status">Status:</string>
+    <string name="status">Not connected</string>
+    <string name="txt_temp">Temperature:</string>
+    <string name="temp">Temp value</string>
+    <string name="text_humi">Humidity:</string>
+    <string name="humi">Huminity value</string>
+    <string name="text_pir">Detection:</string>
+    <string name="pir">Motion massage</string>
+
+    <string name="channel_name">Notification</string>
+    <string name="channel_desc">Description</string>
+</resources>

@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+
+        // eclipse paho
+        maven { url "https://repo.eclipse.org/content/repositories/paho-snapshots/"}
+    }
+}
+
+rootProject.name = "Living Room Monitoring"
+include ':app'
