@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Http Client for Android</string>
+    <string name="text_on">On</string>
+    <string name="text_off">Off</string>
+    <string name="text_hint">LED: ON/OFF</string>
+</resources>

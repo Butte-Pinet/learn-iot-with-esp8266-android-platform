@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ledTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/text_hint"
+        android:gravity="center"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/buttonOn"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ledTextView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="@string/text_on"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/buttonOff"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ledTextView"
+        android:layout_toRightOf="@+id/buttonOn"
+        android:text="@string/text_off"
+        android:textSize="40dp" />
+
+</RelativeLayout>
