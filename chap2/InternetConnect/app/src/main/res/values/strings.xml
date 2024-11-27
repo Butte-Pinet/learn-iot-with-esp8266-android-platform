@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Internet Connect</string>
+    <string name="internet_status_not">Not Connected</string>
+    <string name="text_on_click">Status Click</string>
+</resources>
