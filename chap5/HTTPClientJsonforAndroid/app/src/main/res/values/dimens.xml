@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines.-->
+    <dimen name="marginRight">20dp</dimen>
+    <dimen name="marginTopButton">100dp</dimen>
+    <dimen name="marginLeftBottom">150dp</dimen>
+    <dimen name="marginBottom">20dp</dimen>
+    <dimen name="spaceHeight">50dp</dimen>
+    <dimen name="spaceLow">20dp</dimen>
+    <dimen name="textSize">18dp</dimen>
+    <dimen name="marginLeft">12dp</dimen>
+    <dimen name="marginTop">20dp</dimen>
+</resources>

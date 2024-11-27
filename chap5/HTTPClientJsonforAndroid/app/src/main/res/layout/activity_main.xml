@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/jsonRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:text="LDR Value: "
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginTop="@dimen/marginTop"/>
+
+        <TextView
+            android:id="@+id/jsonTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="from HTTP request"
+            android:textSize="@dimen/textSize"
+            android:layout_marginTop="@dimen/marginTop"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jsonLedRelativeLayout">
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:text="LED Status: "
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginTop="@dimen/marginTop"/>
+
+        <TextView
+            android:id="@+id/jsonLedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="1 or 0 (On|Off)"
+            android:textSize="@dimen/textSize"
+            android:layout_marginTop="@dimen/marginTop"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jsonTextView"
+        android:layout_marginTop="@dimen/marginTopButton"
+        android:layout_marginLeft="@dimen/marginLeftBottom"
+        android:gravity="center"
+        android:text="Get LDR"
+        android:textSize="@dimen/textSize"/>
+
+</LinearLayout>
